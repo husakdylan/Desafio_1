@@ -3,10 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Contacto</title>
     <link rel="shortcut icon" href="\icons\favicon.ico">
 </head>
 <body>
-    
+    <nav>
+        <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/about_us.html">Sobre Nosotros</a></li>
+            <li><a href="/contact.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <br>
+    <h1 style="text-align: center ;"><u>Contacto</u></h1>
+    <br>
+    <main>
+        <article>
+            <h2>Escribinos tu mensaje</h2>
+            <p>¿Tenés alguna duda sobre los itinerarios o querés <strong>recomendar tu libro favorito</strong>? En este cuaderno de viaje estamos siempre abiertos a escuchar <strong>sugerencias de lectura</strong>.</p>
+            <p><u>Un detalle importante:</u> Respondemos todas las consultas lo antes posible.<br>Dejanos tus datos bien anotados para que podamos ponernos en contacto.</p>
+            <hr>
+        </article>
+    </main>
+
+    <form action="#" method="post" enctype="text/plain">
+        <label for="name">Nombre:</label>
+        <input type="text" placeholder="ej: Juan Pérez" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="ej: juan@example.com" id="email" name="email" required><br><br>
+
+        <p>
+            <label for="message">Motivos de tu mensaje:</label><br>
+            <select id="message" name="message" required>
+                <option value="">--Selecciona una opción--</option>
+                <option value="consulta">Consulta de ruta de lectura</option>
+                <option value="sugerencia">Sugerencia de lectura</option>
+                <option value="recomendacion">Recomendación de libro</option>
+                <option value="otro">Reportar problema</option>
+                <option value="otro">Otro</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="message">Mensaje:</label><br>
+            <textarea id="message" name="message" rows="4" cols="60" placeholder="Escribí tu mensaje aquí..." required></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+
+    <footer>
+        &copy; 2026 La Bitácora del Pasajero. Todos los derechos reservados.
+    </footer>
 </body>
 </html>
