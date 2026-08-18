@@ -18,7 +18,7 @@ Muchas veces, abordar la obra de un autor legendario puede ser abrumador. Este s
 
 ### 🛠️ Puntos Clave Evaluados
 * **Maquetación 100% Semántica:** Construcción estricta utilizando etiquetas HTML5 (`<header>`, `<nav>`, `<main>`, `<article>`, `<form>`, `<footer>`).
-* **Accesibilidad (a11y) y SEO:**
+* **Accesibilidad:**
   * Jerarquía clara de encabezados (`<h1>`, `<h2>`, `<h3>`).
   * Atributos `alt` descriptivos en todas las imágenes.
 * **Formatos de Texto y Listas:** Manejo correcto de listas ordenadas (`<ol>`), desordenadas (`<ul>`), negritas, itálicas, subrayados y saltos de línea.
